@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chouinard Woodworks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        night: '#161616',
+                        'eerie-black': '#1A1A1A',
+                        'anti-flash-white': '#EEEEEE',
+                        'dim-gray': '#736961',
+                        lion: '#C7A57A',
+                    },
+                    fontFamily: {
+                        'sans': ['Montserrat', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-night text-anti-flash-white">
+    <header class="bg-eerie-black py-32 md:py-48 bg-cover bg-center relative" style="background-image: url('./images/shelf.png');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-wider">CHOUINARD WOODWORKS</h1>
+            <p class="text-xl md:text-2xl">Made in Winthrop, MA</p>
+        </div>
+    </header>
+
+    <section class="py-24 md:py-32 bg-night">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-12 tracking-wide">A PASSION FOR CRAFT</h2>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-lg md:text-xl leading-relaxed mb-6">
+		    	At Chouinard Woodworks, we breathe life into timber. Our passion for craftsmanship shines through in every custom piece we create, proudly made in Winthrop, MA by Rene Chouinard.
+                    </p>
+                    <a href="#" class="inline-block bg-lion text-night py-3 px-8 text-lg font-semibold hover:bg-dim-gray transition duration-300">View Portfolio</a>
+                </div>
+                <div class="mt-8 md:mt-0">
+                    <img src="./images/farmhouse-chic-table.png" alt="Woodworking craft" class="w-full h-auto object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 md:py-32 bg-eerie-black">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-12 tracking-wide">SELECTED PRODUCTS</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="mb-8">
+                    <img src="./images/rustic-wood-cutting-board-thick.png" alt="thick wood cutting board" class="w-full h-64 object-cover mb-4">
+                    <h3 class="text-2xl font-semibold mb-2">Cutting Boards</h3>
+                    <p class="text-dim-gray">Hand crafted cutting boards.</p>
+                    <a href="#" class="text-lion hover:underline mt-2 inline-block">View project</a>
+                </div>
+                <div class="mb-8">
+                    <img src="./images/rustic-herb-stripper.png" alt="rustic herb stripper" class="w-full h-64 object-cover mb-4">
+                    <h3 class="text-2xl font-semibold mb-2">Herb Strippers</h3>
+                    <p class="text-dim-gray">Not your everyday stripper.</p>
+                    <a href="#" class="text-lion hover:underline mt-2 inline-block">View project</a>
+                </div>
+                <div class="mb-8">
+                    <img src="./images/artisan-wood-coasters.png" alt="artisan wood coasters with inlay" class="w-full h-64 object-cover mb-4">
+                    <h3 class="text-2xl font-semibold mb-2">Coasters</h3>
+                    <p class="text-dim-gray">Bespoke coasters with inlay.</p>
+                    <a href="#" class="text-lion hover:underline mt-2 inline-block">View project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 md:py-32 bg-night">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-12 tracking-wide">HOW WE WORK</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="mb-8">
+                    <span class="text-6xl font-bold text-lion block mb-4">01</span>
+                    <h3 class="text-2xl font-semibold mb-2">Consultation</h3>
+                    <p class="text-dim-gray">We discuss your vision and requirements to create a tailored plan.</p>
+                </div>
+                <div class="mb-8">
+                    <span class="text-6xl font-bold text-lion block mb-4">02</span>
+                    <h3 class="text-2xl font-semibold mb-2">Design</h3>
+                    <p class="text-dim-gray">Our skilled craftsmen create detailed designs for your approval.</p>
+                </div>
+                <div class="mb-8">
+                    <span class="text-6xl font-bold text-lion block mb-4">03</span>
+                    <h3 class="text-2xl font-semibold mb-2">Crafting</h3>
+                    <p class="text-dim-gray">We bring your vision to life with precision and care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 md:py-32 bg-eerie-black">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-8 tracking-wide">CONTACT US</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Ready to start your custom woodworking project? Get in touch with us today.</p>
+            <a href="mailto:info@chouinardwoodworks.com" class="inline-block bg-lion text-night py-4 px-10 text-xl font-semibold hover:bg-dim-gray transition duration-300">Start Your Project</a>
+        </div>
+    </section>
+
+    <footer class="bg-night py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-dim-gray">&copy; 2024 Chouinard Woodworks. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
