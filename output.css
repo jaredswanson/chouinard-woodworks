@@ -1089,6 +1089,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1123,6 +1128,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .leading-8 {
   line-height: 2rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .tracking-wide {
