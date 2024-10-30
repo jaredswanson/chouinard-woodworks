@@ -62,7 +62,7 @@ for i in *.png; do magick "$i" -resize 800x1067\> "resized-$i"; done
 ```
 
 ### Optimize
-Optimize even further with Lossy compression a [Shortpixel](https://shortpixel.com/)
+Optimize even further using Lossy compression with [Shortpixel](https://shortpixel.com/).
 
 ### Why These Specs?
 - 800x1067 provides sufficient detail for product images while keeping file sizes manageable
